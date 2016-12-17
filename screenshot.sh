@@ -1,5 +1,6 @@
 #!/bin/bash
-xdotool windowminimize $(xdotool search -name LibreOffice\ Writer);
+winId=$(xdotool getactivewindow);
+xdotool windowminimize $winId;
 gnome-screenshot -ca 2>/dev/null;
-wmctrl -ia $(xdotool search -name LibreOffice\ Writer);
+wmctrl -ia $winId;
 xdotool key ctrl+v;
