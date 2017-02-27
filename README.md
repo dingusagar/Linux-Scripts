@@ -1,7 +1,7 @@
 # Linux-Scripts
 This folder contains linux shell scripts that can make your life easy
 
-<b>screenshot.sh<b>
+<b>screenshot.sh</b>
 The main object here was to mimic the quick screen capture and paste feature inside Microsoft OneNote. 
 This feature in OneNote was very useful in making notes.
 
