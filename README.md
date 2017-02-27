@@ -8,6 +8,10 @@ This feature in OneNote was very useful in making notes.
 Inside Libre Office , you can make a macro and call the script . You make make this as a button and even make a shortcut
 like shift + space .
 
+So first make sure you have the required tools that are used in the script
+download 
+    wmctrl,gnome-screenshot and xdotool
+
 Create a new macro and paste this code . Just replace PATH_TO_SCRIPT with whatever path you have to reach your script.
 <pre>
 Sub ScreenCapture
