@@ -9,7 +9,7 @@ menu ()
 	 echo "d. Check DNS "
 	 echo "p. Prsent working directory"
 	 echo "e. Exit"
-	 echo -n "Please enter option [1 - 4]"
+	 echo -n "Please enter option : "
 	 read opt
 	 case $opt in
 	  i) echo "************ Check Internet *************";
