@@ -1,0 +1,8 @@
+
+# git aliases
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit -m'
+alias gpo='git push origin'
+alias gd='git diff'
+alias gl='git log'
