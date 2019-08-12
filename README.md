@@ -2,7 +2,8 @@
 This folder contains linux shell scripts that can make your life easy
 
 <b>Libre Office Screen Capture Extension</b><br>
-<b>screenshot.sh</b><br><br>
+
+<b>1. screenshot.sh</b><br><br>
 The main object here was to mimic the quick screen capture and paste feature inside Microsoft OneNote. 
 This feature in OneNote was very useful in making notes.
 
@@ -19,3 +20,9 @@ Sub ScreenCapture
 shell "PATH_TO_SCRIPT/screenshot.sh"
 End Sub 
 </pre>
+
+### 2. check-server.sh 
+checks if internet is up.
+
+### 3. .rc
+common utility  run commands for bashrc, zshrc etc
