@@ -103,6 +103,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+PATH=$PATH:/usr/local/bin
+
 
 # git aliases
 alias gs='git status'
@@ -118,7 +120,5 @@ alias subl='/usr/local/bin/sublime'
 
 # execute -> git clone https://github.com/dingusagar/Linux-Scripts ~/
 alias devdeploy='~/Linux-Scripts/dev_deploy.sh'
-alias checkserver='~/Linux-Scripts/check_server.sh'
-
 
 
