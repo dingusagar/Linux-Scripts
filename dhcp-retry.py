@@ -1,6 +1,10 @@
 import subprocess
 import time
 
+"""
+Keep on releasing and retrying for ip from DHCP that starts with 'search_term' 
+"""
+
 commands = [
 	"sudo dhclient  -v  -r enp6s0f1",
 	"sudo dhclient  -v   enp6s0f1"
