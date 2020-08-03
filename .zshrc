@@ -117,13 +117,6 @@ alias gl='git log'
 
 alias subl='/usr/local/bin/sublime'
 
-# peoplehum development
-alias phdir='cd ~/Downloads/old\ downloads/ph/'
-alias phRef='subl ~/Downloads/old\ downloads/phRef'
-
-alias phdev1='sshpass -p 'vagrant' ssh vagrant@172.16.28.28'
-alias phdev2='sshpass -p 'vagrant' ssh vagrant@172.16.28.31'
-alias phdev3='sshpass -p 'vagrant' ssh vagrant@172.16.28.34'
 
 
 
