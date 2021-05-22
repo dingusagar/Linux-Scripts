@@ -27,3 +27,9 @@ checks if internet is up.
 
 ### 3. .rc
 common utility  run commands for bashrc, zshrc etc
+
+
+### 4. Change Battey Full Charge limit
+For longer battery life, it is recommended that we dont charge the battery to full 100%. But we keep the charger hooked on most of the time. To change the charge limit the following command can be used. 
+`echo 60 | sudo tee /sys/class/power_supply/BAT1/charge_control_end_threshold`
+This makes sure the charging never goes above 60% which is good for battery life. 
