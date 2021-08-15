@@ -33,3 +33,7 @@ common utility  run commands for bashrc, zshrc etc
 For longer battery life, it is recommended that we dont charge the battery to full 100%. But we keep the charger hooked on most of the time. To change the charge limit the following command can be used. 
 `echo 60 | sudo tee /sys/class/power_supply/BAT1/charge_control_end_threshold`
 This makes sure the charging never goes above 60% which is good for battery life. 
+
+### 5. Download all files from a url expect index.html
+`wget -r -np -nH -R "index.html*" -P . http://169.254.81.22:8081/Silicon%20Valley/    `
+
