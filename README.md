@@ -37,3 +37,9 @@ This makes sure the charging never goes above 60% which is good for battery life
 ### 5. Download all files from a url expect index.html
 `wget -r -np -nH -R "index.html*" -P . http://169.254.81.22:8081/Silicon%20Valley/    `
 
+### 6. SCP files faster to a remote machine, 
+Create a tar and transfer. This is soo sooo much faster than normal scp. 
+`tar czf - cap_* | ssh user@host tar xvzfC - dir`
+[reference](https://unix.stackexchange.com/questions/238152/why-is-scp-so-slow-and-how-to-make-it-faster/238207?newreg=b4818e0217b640389f6304a94d7d8430)
+
+
