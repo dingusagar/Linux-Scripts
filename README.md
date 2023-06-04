@@ -43,3 +43,7 @@ Create a tar and transfer. This is soo sooo much faster than normal scp.
 [reference](https://unix.stackexchange.com/questions/238152/why-is-scp-so-slow-and-how-to-make-it-faster/238207?newreg=b4818e0217b640389f6304a94d7d8430)
 
 
+
+### 7. Convert mkv to mp4.
+`ffmpeg -i 2.mkv -codec copy convert2.mp4`
+
